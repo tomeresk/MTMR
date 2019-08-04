@@ -19,7 +19,7 @@ class AppleScriptTouchBarItem: CustomButtonTouchBarItem {
             }
             self.script = script
             DispatchQueue.main.async {
-                self.isBordered = false
+                self.isBordered = true
             }
             
             var error: NSDictionary?
